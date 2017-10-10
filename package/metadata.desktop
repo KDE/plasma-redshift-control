@@ -1,7 +1,19 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=Redshift Control
+Name[ca]=Control per al Redshift
+Name[nl]=Besturing van roodverschuiving
+Name[pt]=Controlo do Redshift
+Name[sv]=Rödförskjutningsstyrning
+Name[uk]=Керування Redshift
+Name[x-test]=xxRedshift Controlxx
 Comment=Plasmoid for controling redshift.
+Comment[ca]=Plasmoide per a controlar el redshift.
+Comment[nl]=Plasmoid voor besturing van roodverschuiving.
+Comment[pt]=Plasmóide para controlar o Redshift.
+Comment[sv]=Plasmoid för att styra rödförskjutning.
+Comment[uk]=Плазмоїд для керування redshift.
+Comment[x-test]=xxPlasmoid for controling redshift.xx
 Type=Service
 X-KDE-ParentApp=
 X-KDE-PluginInfo-Author=Kotelnik
