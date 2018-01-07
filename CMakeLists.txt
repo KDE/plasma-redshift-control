@@ -12,6 +12,4 @@ include(KDECompilerSettings)
 
 find_package(KF5Plasma)
 
-add_subdirectory(translations)
-
 plasma_install_package(package org.kde.redshiftControl)
