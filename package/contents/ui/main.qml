@@ -96,7 +96,7 @@ Item {
 
     function stopRedshift() {
         print('disabling redshift')
-        redshiftDS.connectedSources.length = 0
+        redshiftDS.removeSource(redshiftCommand)
         redshiftDS.connectedSources.push(redshiftDS.redshiftStopSource)
         active = false
     }
