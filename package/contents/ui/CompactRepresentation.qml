@@ -48,6 +48,8 @@ Item {
     property color redshiftColour: '#ff3c0b'
     property color brightnessColour: '#39a2ee'
 
+    property string versionString: 'N/A'
+
     PlasmaCore.IconItem {
         id: customIcon
         anchors.fill: parent
@@ -136,7 +138,11 @@ Item {
                     }
                 }
             }
-            redshiftDS.connectedSources.push(redshiftOneTimeCommand)
+            if (parseFloat(versionString) >= 1.12) {
+                redshiftDS.connectedSources.push(redshiftOneTimeCommand + " -P")
+            } else {
+                redshiftDS.connectedSources.push(redshiftOneTimeCommand)
+            }
         }
 
         onClicked: {
@@ -169,4 +175,19 @@ Item {
         }
     }
 
+    PlasmaCore.DataSource {
+        id: getOptionsDS
+        engine: 'executable'
+
+        connectedSources: ['redshift -V']
+
+        onNewData: {
+            connectedSources.length = 0
+            if (data['exit code'] > 0) {
+                print('Error running redshift with command: ' + sourceName + '   ...stderr: ' + data.stderr)
+                return
+            }
+            versionString = data.stdout.split(' ')[1]
+        }
+    }
 }
