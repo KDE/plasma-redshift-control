@@ -61,6 +61,7 @@ Item {
         }
         SpinBox {
             id: manualTemperatureStep
+            Layout.minimumWidth: iconActivePicker.width
             decimals: 0
             stepSize: 125
             minimumValue: 25
@@ -73,6 +74,7 @@ Item {
         }
         SpinBox {
             id: manualBrightnessStep
+            Layout.minimumWidth: iconActivePicker.width
             decimals: 2
             stepSize: 0.01
             minimumValue: 0.01
@@ -97,6 +99,7 @@ Item {
         }
 
         IconPicker {
+            id: iconActivePicker
             currentIcon: cfg_iconActive
             defaultIcon: 'redshift-status-on'
             onIconChanged: cfg_iconActive = iconName
