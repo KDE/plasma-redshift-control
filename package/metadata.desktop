@@ -1,6 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=Redshift Control
+Name[az]=Redshift Nəzarəti
 Name[ca]=Control per al Redshift
 Name[ca@valencia]=Control per al Redshift
 Name[cs]=Ovládání Redshift
@@ -33,6 +34,7 @@ Name[x-test]=xxRedshift Controlxx
 Name[zh_CN]=Redshift 控制
 Name[zh_TW]=Redshift 控制
 Comment=Plasmoid for controling redshift.
+Comment[az]=Redshift idarə etmək üçün plasmoid
 Comment[ca]=Plasmoide per a controlar el Redshift.
 Comment[ca@valencia]=Plasmoide per a controlar el Redshift.
 Comment[da]=Plasmoid til at styre rødforskydning.
