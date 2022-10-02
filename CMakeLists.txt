@@ -12,5 +12,8 @@ include(KDECMakeSettings)
 include(KDECompilerSettings)
 
 find_package(KF5Plasma)
+find_package(KF5I18n)
 
 plasma_install_package(package org.kde.redshiftControl)
+
+ki18n_install(po)
