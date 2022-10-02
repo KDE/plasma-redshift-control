@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-05-26 00:21+0000\n"
+"PO-Revision-Date: 2022-09-20 01:56\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/messages/plasma-redshift-control/"
+"plasma_applet_org.kde.redshiftControl.pot\n"
+"X-Crowdin-File-ID: 10198\n"
+
+#: package/contents/config/config.qml:11
+msgid "General"
+msgstr "常规"
+
+#: package/contents/config/config.qml:16
+msgid "Advanced"
+msgstr "高级"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:63
+msgid "Location"
+msgstr "位置"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:69
+msgid "Automatic (geoclue)"
+msgstr "自动 (geoclue)"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:73
+msgid "Latitude:"
+msgstr "纬度："
+
+#: package/contents/ui/config/ConfigAdvanced.qml:89
+msgid "Locate"
+msgstr "定位"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:90
+msgid "This will use Mozilla Location Service exposed natively in KDE"
+msgstr "这将会使用在 KDE 中原生使用的 Mozilla 定位服务"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:101
+msgid "Longitude:"
+msgstr "经度："
+
+#: package/contents/ui/config/ConfigAdvanced.qml:123
+msgid "Temperature"
+msgstr "温度"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:128
+#: package/contents/ui/main.qml:193
+msgid "Brightness"
+msgstr "亮度"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:134
+#: package/contents/ui/config/ConfigAdvanced.qml:147
+msgid "Day:"
+msgstr "白天："
+
+#: package/contents/ui/config/ConfigAdvanced.qml:160
+#: package/contents/ui/config/ConfigAdvanced.qml:173
+msgid "Night:"
+msgstr "夜晚："
+
+#: package/contents/ui/config/ConfigAdvanced.qml:191
+msgid "Gamma"
+msgstr "伽玛分布"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:196
+msgid "RGB:"
+msgstr "RGB："
+
+#: package/contents/ui/config/ConfigAdvanced.qml:231
+msgid "Mode"
+msgstr "模式"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:270
+msgid "Screen"
+msgstr "屏幕"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:276
+msgid "Card"
+msgstr "卡片"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:290
+msgid "CRTC"
+msgstr "CRTC"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:298
+msgid "Preserve screen colour"
+msgstr "保留屏幕色彩"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:306
+msgid "Insert custom mode options"
+msgstr "插入自定义模式选项"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:346
+msgid "Redshift version"
+msgstr "Redshift 版本"
+
+#: package/contents/ui/config/ConfigGeneral.qml:21
+msgid "Plasmoid version"
+msgstr "Plasmoid 版本"
+
+#: package/contents/ui/config/ConfigGeneral.qml:31
+msgid "Autostart"
+msgstr "自动启动"
+
+#: package/contents/ui/config/ConfigGeneral.qml:37
+msgid "Smooth transitions"
+msgstr "平滑过渡"
+
+#: package/contents/ui/config/ConfigGeneral.qml:48
+msgid "Manual temperature step:"
+msgstr "手动温阶："
+
+#: package/contents/ui/config/ConfigGeneral.qml:61
+msgid "Manual brightness step:"
+msgstr "手动亮阶："
+
+#: package/contents/ui/config/ConfigGeneral.qml:81
+msgid "Use default icons"
+msgstr "使用默认图标"
+
+#: package/contents/ui/config/ConfigGeneral.qml:86
+msgid "Active:"
+msgstr "活动："
+
+#: package/contents/ui/config/ConfigGeneral.qml:99
+msgid "Inactive:"
+msgstr "未活动："
+
+#: package/contents/ui/config/IconPicker.qml:73
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "选择..."
+
+#: package/contents/ui/config/IconPicker.qml:78
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "清除图标"
+
+#: package/contents/ui/main.qml:190
+msgid "Turned on"
+msgstr "已开启"
+
+#: package/contents/ui/main.qml:193
+msgid "Manual temperature"
+msgstr "手动色温"
+
+#: package/contents/ui/main.qml:195
+msgid "Turned off"
+msgstr "已关闭"
+
+#: package/contents/ui/main.qml:200
+msgid ""
+"Use left / middle click and wheel to manage screen temperature and brightness"
+msgstr "使用左键/中键点击与滚轮来控制屏幕色温与亮度"
+
+#: package/contents/ui/main.qml:203
+msgid "Mouse wheel controls software brightness"
+msgstr "鼠标滚轮控制软件亮度"
+
+#: package/contents/ui/main.qml:205
+msgid "Mouse wheel controls screen temperature"
+msgstr "鼠标滚轮控制屏幕色温"
+
+#: package/contents/ui/main.qml:229
+msgid "Redshift Control"
+msgstr "Redshift 控制"

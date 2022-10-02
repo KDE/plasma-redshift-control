@@ -1,0 +1,179 @@
+# Translation of plasma_applet_org.kde.redshiftControl.po to Brazilian Portuguese
+# Copyright (C) 2019 This file is copyright:
+# This file is distributed under the same license as the plasma-redshift-control package.
+#
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-redshift-control\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-05-26 00:21+0000\n"
+"PO-Revision-Date: 2019-04-28 15:21-0300\n"
+"Last-Translator: André Marcelo Alvarenga <alvarenga@kde.org>\n"
+"Language-Team: Brazilian Portuguese <kde-i18n-pt_br@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 18.12.3\n"
+
+#: package/contents/config/config.qml:11
+msgid "General"
+msgstr "Geral"
+
+#: package/contents/config/config.qml:16
+msgid "Advanced"
+msgstr "Avançado"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:63
+msgid "Location"
+msgstr "Localização"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:69
+msgid "Automatic (geoclue)"
+msgstr "Automática (geoclue)"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:73
+msgid "Latitude:"
+msgstr "Latitude:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:89
+msgid "Locate"
+msgstr "Localizar"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:90
+msgid "This will use Mozilla Location Service exposed natively in KDE"
+msgstr "Isto usará o Location Service da Mozilla, exposto nativamente no KDE"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:101
+msgid "Longitude:"
+msgstr "Longitude:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:123
+msgid "Temperature"
+msgstr "Temperatura"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:128
+#: package/contents/ui/main.qml:193
+msgid "Brightness"
+msgstr "Brilho"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:134
+#: package/contents/ui/config/ConfigAdvanced.qml:147
+msgid "Day:"
+msgstr "Dia:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:160
+#: package/contents/ui/config/ConfigAdvanced.qml:173
+msgid "Night:"
+msgstr "Noite:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:191
+msgid "Gamma"
+msgstr "Gama"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:196
+msgid "RGB:"
+msgstr "RGB:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:231
+msgid "Mode"
+msgstr "Modo"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:270
+msgid "Screen"
+msgstr "Tela"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:276
+msgid "Card"
+msgstr "Cartão"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:290
+msgid "CRTC"
+msgstr "CRTC"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:298
+msgid "Preserve screen colour"
+msgstr "Manter a cor da tela"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:306
+msgid "Insert custom mode options"
+msgstr "Inserir opções de modo personalizadas"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:346
+msgid "Redshift version"
+msgstr "Versão do Redshift"
+
+#: package/contents/ui/config/ConfigGeneral.qml:21
+msgid "Plasmoid version"
+msgstr "Versão do plasmoide"
+
+#: package/contents/ui/config/ConfigGeneral.qml:31
+msgid "Autostart"
+msgstr "Iniciar automaticamente"
+
+#: package/contents/ui/config/ConfigGeneral.qml:37
+msgid "Smooth transitions"
+msgstr "Transições suaves"
+
+#: package/contents/ui/config/ConfigGeneral.qml:48
+msgid "Manual temperature step:"
+msgstr "Passo de temperatura manual:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:61
+msgid "Manual brightness step:"
+msgstr "Passo de brilho manual:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:81
+msgid "Use default icons"
+msgstr "Usar os ícones padrão"
+
+#: package/contents/ui/config/ConfigGeneral.qml:86
+msgid "Active:"
+msgstr "Ativo:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:99
+msgid "Inactive:"
+msgstr "Inativo:"
+
+#: package/contents/ui/config/IconPicker.qml:73
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Escolher..."
+
+#: package/contents/ui/config/IconPicker.qml:78
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Limpar ícone"
+
+#: package/contents/ui/main.qml:190
+msgid "Turned on"
+msgstr "Ligada"
+
+#: package/contents/ui/main.qml:193
+msgid "Manual temperature"
+msgstr "Temperatura manual"
+
+#: package/contents/ui/main.qml:195
+msgid "Turned off"
+msgstr "Desligada"
+
+#: package/contents/ui/main.qml:200
+msgid ""
+"Use left / middle click and wheel to manage screen temperature and brightness"
+msgstr ""
+"Usar o botão do meio/esquerdo e a roda do mouse para gerenciar a temperatura "
+"e brilho da tela"
+
+#: package/contents/ui/main.qml:203
+msgid "Mouse wheel controls software brightness"
+msgstr "A roda do mouse controla o brilho por software"
+
+#: package/contents/ui/main.qml:205
+msgid "Mouse wheel controls screen temperature"
+msgstr "A roda do mouse controla a temperatura da tela"
+
+#: package/contents/ui/main.qml:229
+msgid "Redshift Control"
+msgstr "Controle do Redshift"

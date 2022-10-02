@@ -1,0 +1,181 @@
+# Translation of plasma_applet_org.kde.redshiftControl.po to Euskara/Basque (eu).
+# Copyright (C) 2019, This file is copyright:
+# This file is distributed under the same license as the plasma-redshift-control package.
+# KDE euskaratzeko proiektuaren arduraduna <xalba@euskalnet.net>.
+#
+# Translators:
+# Iñigo Salvador Azurmendi <xalba@euskalnet.net>, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-redshift-control\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-05-26 00:21+0000\n"
+"PO-Revision-Date: 2019-05-18 23:01+0100\n"
+"Last-Translator: Iñigo Salvador Azurmendi <xalba@euskalnet.net>\n"
+"Language-Team: Basque <kde-i18n-eu@kde.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: package/contents/config/config.qml:11
+msgid "General"
+msgstr "Orokorra"
+
+#: package/contents/config/config.qml:16
+msgid "Advanced"
+msgstr "Aurreratua"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:63
+msgid "Location"
+msgstr "Kokalekua"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:69
+msgid "Automatic (geoclue)"
+msgstr "Automatikoa (geoclue)"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:73
+msgid "Latitude:"
+msgstr "Latitudea:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:89
+msgid "Locate"
+msgstr "Kokatu"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:90
+msgid "This will use Mozilla Location Service exposed natively in KDE"
+msgstr "Honek Mozillaren kokatzeko zerbitzua erabiliko du zuzenean KDEn"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:101
+msgid "Longitude:"
+msgstr "Longitudea:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:123
+msgid "Temperature"
+msgstr "Tenperatura"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:128
+#: package/contents/ui/main.qml:193
+msgid "Brightness"
+msgstr "Distira"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:134
+#: package/contents/ui/config/ConfigAdvanced.qml:147
+msgid "Day:"
+msgstr "Eguna:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:160
+#: package/contents/ui/config/ConfigAdvanced.qml:173
+msgid "Night:"
+msgstr "Gaua:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:191
+msgid "Gamma"
+msgstr "Gamma"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:196
+msgid "RGB:"
+msgstr "RGB:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:231
+msgid "Mode"
+msgstr "Modua"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:270
+msgid "Screen"
+msgstr "Pantaila"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:276
+msgid "Card"
+msgstr "Txartela"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:290
+msgid "CRTC"
+msgstr "CRTC"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:298
+msgid "Preserve screen colour"
+msgstr "Mantendu pantailako kolorea"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:306
+msgid "Insert custom mode options"
+msgstr "Txertatu norberak finkatutako moduko aukerak"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:346
+msgid "Redshift version"
+msgstr "Redshift bertsioa"
+
+#: package/contents/ui/config/ConfigGeneral.qml:21
+msgid "Plasmoid version"
+msgstr "Plasmoide bertsioa"
+
+#: package/contents/ui/config/ConfigGeneral.qml:31
+msgid "Autostart"
+msgstr "Hasiera automatikoa"
+
+#: package/contents/ui/config/ConfigGeneral.qml:37
+msgid "Smooth transitions"
+msgstr "Trantsizio leunak"
+
+#: package/contents/ui/config/ConfigGeneral.qml:48
+msgid "Manual temperature step:"
+msgstr "Tenperatura koska eskuz:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:61
+msgid "Manual brightness step:"
+msgstr "Distira koska eskuz:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:81
+msgid "Use default icons"
+msgstr "Erabili ikono lehenetsiak"
+
+#: package/contents/ui/config/ConfigGeneral.qml:86
+msgid "Active:"
+msgstr "Aktibo:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:99
+msgid "Inactive:"
+msgstr "Ez-aktibo:"
+
+#: package/contents/ui/config/IconPicker.qml:73
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Hautatu..."
+
+#: package/contents/ui/config/IconPicker.qml:78
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Berrezarri ikonoa"
+
+#: package/contents/ui/main.qml:190
+msgid "Turned on"
+msgstr "Piztuta"
+
+#: package/contents/ui/main.qml:193
+msgid "Manual temperature"
+msgstr "Tenperatura eskuz"
+
+#: package/contents/ui/main.qml:195
+msgid "Turned off"
+msgstr "Itzalita"
+
+#: package/contents/ui/main.qml:200
+msgid ""
+"Use left / middle click and wheel to manage screen temperature and brightness"
+msgstr ""
+"Erabili ezkerreko / erdiko klika eta gurpila pantailako tenperatura eta "
+"distira kudeatzeko"
+
+#: package/contents/ui/main.qml:203
+msgid "Mouse wheel controls software brightness"
+msgstr "Saguaren gurpilak agintzen du software bidezko distira"
+
+#: package/contents/ui/main.qml:205
+msgid "Mouse wheel controls screen temperature"
+msgstr "Saguaren gurpilak agintzen du pantailako tenperatura"
+
+#: package/contents/ui/main.qml:229
+msgid "Redshift Control"
+msgstr "Redshift agintea"

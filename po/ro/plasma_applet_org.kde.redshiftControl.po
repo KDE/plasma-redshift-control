@@ -1,0 +1,179 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-redshift-control package.
+# Sergiu Bivol <sergiu@cip.md>, 2020, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-redshift-control\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-05-26 00:21+0000\n"
+"PO-Revision-Date: 2022-02-15 11:21+0000\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 21.12.2\n"
+
+#: package/contents/config/config.qml:11
+msgid "General"
+msgstr "Generale"
+
+#: package/contents/config/config.qml:16
+msgid "Advanced"
+msgstr "Avansate"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:63
+msgid "Location"
+msgstr "Amplasare"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:69
+msgid "Automatic (geoclue)"
+msgstr "Automată (geoclue)"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:73
+msgid "Latitude:"
+msgstr "Latitudine:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:89
+msgid "Locate"
+msgstr "Localizează"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:90
+msgid "This will use Mozilla Location Service exposed natively in KDE"
+msgstr "Aceasta va folosi Serviciul de Localizare Mozilla expus nativ în KDE"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:101
+msgid "Longitude:"
+msgstr "Longitudine:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:123
+msgid "Temperature"
+msgstr "Temperatură"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:128
+#: package/contents/ui/main.qml:193
+msgid "Brightness"
+msgstr "Luminozitate"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:134
+#: package/contents/ui/config/ConfigAdvanced.qml:147
+msgid "Day:"
+msgstr "Zi:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:160
+#: package/contents/ui/config/ConfigAdvanced.qml:173
+msgid "Night:"
+msgstr "Noapte:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:191
+msgid "Gamma"
+msgstr "Gama"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:196
+msgid "RGB:"
+msgstr "RGB:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:231
+msgid "Mode"
+msgstr "Regim"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:270
+msgid "Screen"
+msgstr "Ecran"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:276
+msgid "Card"
+msgstr "Cartelă"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:290
+msgid "CRTC"
+msgstr "CRTC"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:298
+msgid "Preserve screen colour"
+msgstr "Păstrează culoarea ecranului"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:306
+msgid "Insert custom mode options"
+msgstr "Inserează opțiuni personalizate de regim"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:346
+msgid "Redshift version"
+msgstr "Versiune Redshift"
+
+#: package/contents/ui/config/ConfigGeneral.qml:21
+msgid "Plasmoid version"
+msgstr "Versiune plasmoid"
+
+#: package/contents/ui/config/ConfigGeneral.qml:31
+msgid "Autostart"
+msgstr "Pornire automată"
+
+#: package/contents/ui/config/ConfigGeneral.qml:37
+msgid "Smooth transitions"
+msgstr "Tranziții fine"
+
+#: package/contents/ui/config/ConfigGeneral.qml:48
+msgid "Manual temperature step:"
+msgstr "Pas de temperatură manuală:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:61
+msgid "Manual brightness step:"
+msgstr "Pas de luminozitate manuală:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:81
+msgid "Use default icons"
+msgstr "Folosește pictograme implicite"
+
+#: package/contents/ui/config/ConfigGeneral.qml:86
+msgid "Active:"
+msgstr "Activ:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:99
+msgid "Inactive:"
+msgstr "Inactiv:"
+
+#: package/contents/ui/config/IconPicker.qml:73
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Alege..."
+
+#: package/contents/ui/config/IconPicker.qml:78
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Șterge pictograma"
+
+#: package/contents/ui/main.qml:190
+msgid "Turned on"
+msgstr "Pornit"
+
+#: package/contents/ui/main.qml:193
+msgid "Manual temperature"
+msgstr "Temperatură manuală"
+
+#: package/contents/ui/main.qml:195
+msgid "Turned off"
+msgstr "Oprit"
+
+#: package/contents/ui/main.qml:200
+msgid ""
+"Use left / middle click and wheel to manage screen temperature and brightness"
+msgstr ""
+"Folosiți clic stâng / mijlociu și rotița pentru a gestiona temperatura și "
+"luminozitatea ecranului"
+
+#: package/contents/ui/main.qml:203
+msgid "Mouse wheel controls software brightness"
+msgstr "Rotița mausului controlează luminozitatea software"
+
+#: package/contents/ui/main.qml:205
+msgid "Mouse wheel controls screen temperature"
+msgstr "Rotița mausului controlează temperatura ecranului"
+
+#: package/contents/ui/main.qml:229
+msgid "Redshift Control"
+msgstr "Control Redshift"

@@ -1,0 +1,180 @@
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-redshift-control package.
+#
+# Kheyyam Gojayev <xxmn77@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-redshift-control\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-05-26 00:21+0000\n"
+"PO-Revision-Date: 2021-02-09 10:49+0400\n"
+"Last-Translator: Kheyyam Gojayev <xxmn77@gmail.com>\n"
+"Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 20.12.2\n"
+
+#: package/contents/config/config.qml:11
+msgid "General"
+msgstr "Əsas"
+
+#: package/contents/config/config.qml:16
+msgid "Advanced"
+msgstr "Əlavə"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:63
+msgid "Location"
+msgstr "Məkan"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:69
+msgid "Automatic (geoclue)"
+msgstr "Automatik (geoclue)"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:73
+msgid "Latitude:"
+msgstr "En dairəsi:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:89
+msgid "Locate"
+msgstr "Yer təyin etmək"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:90
+msgid "This will use Mozilla Location Service exposed natively in KDE"
+msgstr ""
+"Bu, KDE-də yerli olaraq təqdim olunan Mozilla Yer Xidmətindən istifadə "
+"edəcəkdir"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:101
+msgid "Longitude:"
+msgstr "Uzunluq dairəsi:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:123
+msgid "Temperature"
+msgstr "Temperatur"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:128
+#: package/contents/ui/main.qml:193
+msgid "Brightness"
+msgstr "Parlaqlıq"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:134
+#: package/contents/ui/config/ConfigAdvanced.qml:147
+msgid "Day:"
+msgstr "Gün:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:160
+#: package/contents/ui/config/ConfigAdvanced.qml:173
+msgid "Night:"
+msgstr "Gecə:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:191
+msgid "Gamma"
+msgstr "Qamma"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:196
+msgid "RGB:"
+msgstr "RGB:"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:231
+msgid "Mode"
+msgstr "Rejim"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:270
+msgid "Screen"
+msgstr "Ekran"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:276
+msgid "Card"
+msgstr "SD kart"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:290
+msgid "CRTC"
+msgstr "CRTC"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:298
+msgid "Preserve screen colour"
+msgstr "Ekran rəngini saxlamaq"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:306
+msgid "Insert custom mode options"
+msgstr "İstifadəşi rejimi ayarlarını daxil etmək"
+
+#: package/contents/ui/config/ConfigAdvanced.qml:346
+msgid "Redshift version"
+msgstr "Redshift versiyası"
+
+#: package/contents/ui/config/ConfigGeneral.qml:21
+msgid "Plasmoid version"
+msgstr "Plasmoid versiyası"
+
+#: package/contents/ui/config/ConfigGeneral.qml:31
+msgid "Autostart"
+msgstr "Avtomatik başlama"
+
+#: package/contents/ui/config/ConfigGeneral.qml:37
+msgid "Smooth transitions"
+msgstr "Rəvan keçid"
+
+#: package/contents/ui/config/ConfigGeneral.qml:48
+msgid "Manual temperature step:"
+msgstr "Temperatur həddi əl ilə:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:61
+msgid "Manual brightness step:"
+msgstr "Parlaqlıq həddi əl ilə:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:81
+msgid "Use default icons"
+msgstr "Standart nişanlar istifadə etmək"
+
+#: package/contents/ui/config/ConfigGeneral.qml:86
+msgid "Active:"
+msgstr "Aktiv:"
+
+#: package/contents/ui/config/ConfigGeneral.qml:99
+msgid "Inactive:"
+msgstr "Qeyri-Aktiv:"
+
+#: package/contents/ui/config/IconPicker.qml:73
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose..."
+msgstr "Seçim..."
+
+#: package/contents/ui/config/IconPicker.qml:78
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr "Nişanı silmək"
+
+#: package/contents/ui/main.qml:190
+msgid "Turned on"
+msgstr "Açmaq"
+
+#: package/contents/ui/main.qml:193
+msgid "Manual temperature"
+msgstr "Temperatur, əl ilə"
+
+#: package/contents/ui/main.qml:195
+msgid "Turned off"
+msgstr "Söndürmək"
+
+#: package/contents/ui/main.qml:200
+msgid ""
+"Use left / middle click and wheel to manage screen temperature and brightness"
+msgstr ""
+"Ekran temperaturunu və parlaqlığını idarəe tmək üçün sol/sağ klikdən və "
+"siçan diyircəyindən istifadə edin"
+
+#: package/contents/ui/main.qml:203
+msgid "Mouse wheel controls software brightness"
+msgstr "Siçan diyircəyi proqram təminatı parlaqlığını idarə edir"
+
+#: package/contents/ui/main.qml:205
+msgid "Mouse wheel controls screen temperature"
+msgstr "Siçan diyircəyi ekran temperaturunu idarə edir"
+
+#: package/contents/ui/main.qml:229
+msgid "Redshift Control"
+msgstr "Redshift Nəzarəti"
