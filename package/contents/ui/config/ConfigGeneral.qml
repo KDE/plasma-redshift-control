@@ -18,7 +18,7 @@ Item {
     property string cfg_iconInactive: plasmoid.configuration.iconInactive
 
     Label {
-        text: i18n('Plasmoid version') + ': 1.0.18'
+        text: i18n("Plasmoid version") + ": 1.0.18"
         anchors.right: parent.right
     }
 
@@ -28,13 +28,13 @@ Item {
 
         CheckBox {
             id: autostart
-            text: i18n('Autostart')
+            text: i18n("Autostart")
             Layout.columnSpan: 2
         }
 
         CheckBox {
             id: smoothTransitions
-            text: i18n('Smooth transitions')
+            text: i18n("Smooth transitions")
             Layout.columnSpan: 2
         }
 
@@ -78,7 +78,7 @@ Item {
 
         CheckBox {
             id: useDefaultIcons
-            text: i18n('Use default icons')
+            text: i18n("Use default icons")
             Layout.columnSpan: 2
         }
 

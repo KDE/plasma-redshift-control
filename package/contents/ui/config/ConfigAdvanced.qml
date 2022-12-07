@@ -66,11 +66,11 @@ Item {
         }
         CheckBox {
             id: geoclueLocationEnabled
-            text: i18n('Automatic (geoclue)')
+            text: i18n("Automatic (geoclue)")
             Layout.columnSpan: parent.columns
         }
         Label {
-            text: i18n('Latitude:')
+            text: i18n("Latitude:")
             Layout.alignment: Qt.AlignRight
             enabled: !geoclueLocationEnabled.checked
         }
@@ -86,8 +86,8 @@ Item {
         }
 
         Button {
-            text: i18n('Locate')
-            tooltip: i18n('This will use Mozilla Location Service exposed natively in KDE')
+            text: i18n("Locate")
+            tooltip: i18n("This will use Mozilla Location Service exposed natively in KDE")
             onClicked: {
                 geolocationDS.connectedSources.length = 0
                 geolocationDS.connectedSources.push(geolocationDS.locationSource)
@@ -98,7 +98,7 @@ Item {
         }
 
         Label {
-            text: i18n('Longitude:')
+            text: i18n("Longitude:")
             Layout.alignment: Qt.AlignRight
             enabled: !geoclueLocationEnabled.checked
         }
@@ -120,18 +120,18 @@ Item {
         }
 
         Label {
-            text: i18n('Temperature')
+            text: i18n("Temperature")
             Layout.columnSpan: 2
             font.bold: true
         }
         Label {
-            text: i18n('Brightness')
+            text: i18n("Brightness")
             Layout.columnSpan: 2
             font.bold: true
         }
 
         Label {
-            text: i18n('Day:')
+            text: i18n("Day:")
             Layout.alignment: Qt.AlignRight
         }
         SpinBox {
@@ -144,7 +144,7 @@ Item {
         }
 
         Label {
-            text: i18n('Day:')
+            text: i18n("Day:")
             Layout.alignment: Qt.AlignRight
         }
         SpinBox {
@@ -157,7 +157,7 @@ Item {
         }
 
         Label {
-            text: i18n('Night:')
+            text: i18n("Night:")
             Layout.alignment: Qt.AlignRight
         }
         SpinBox {
@@ -170,7 +170,7 @@ Item {
         }
 
         Label {
-            text: i18n('Night:')
+            text: i18n("Night:")
             Layout.alignment: Qt.AlignRight
         }
         SpinBox {
@@ -188,12 +188,12 @@ Item {
             Layout.columnSpan: parent.columns
         }
         Label {
-            text: i18n('Gamma')
+            text: i18n("Gamma")
             Layout.columnSpan: parent.columns
             font.bold: true
         }
         Label {
-            text: i18n('RGB:')
+            text: i18n("RGB:")
             Layout.alignment: Qt.AlignRight
         }
         RowLayout {
@@ -228,7 +228,7 @@ Item {
             Layout.columnSpan: parent.columns
         }
         Label {
-            text: i18n('Mode')
+            text: i18n("Mode")
             Layout.columnSpan: parent.columns
             font.bold: true
         }
@@ -267,13 +267,13 @@ Item {
         // col 2
         TextField {
             id: renderModeScreen
-            placeholderText: i18n('Screen')
+            placeholderText: i18n("Screen")
             visible: isMode(['randr', 'vidmode'])
             onTextChanged: modeChanged()
         }
         TextField {
             id: renderModeCard
-            placeholderText: i18n('Card')
+            placeholderText: i18n("Card")
             visible: isMode(['drm', 'card'])
             onTextChanged: modeChanged()
         }
@@ -287,7 +287,7 @@ Item {
         TextField {
             id: renderModeCrtc
             width: advancedConfig / 8
-            placeholderText: i18n('CRTC')
+            placeholderText: i18n("CRTC")
             opacity: isMode(['drm', 'randr']) ? 1 : 0
             onTextChanged: modeChanged()
         }
@@ -295,7 +295,7 @@ Item {
         // col 4
         CheckBox {
             id: preserveScreenColour
-            text: i18n('Preserve screen colour')
+            text: i18n("Preserve screen colour")
             opacity: isMode(['randr', 'vidmode']) ? 1 : 0
             enabled: parseFloat(versionString) >= 1.11
             onCheckedChanged: modeChanged()
@@ -303,7 +303,7 @@ Item {
 
         TextField {
             id: modeString
-            placeholderText: i18n('Insert custom mode options')
+            placeholderText: i18n("Insert custom mode options")
             Layout.columnSpan: parent.columns
             Layout.preferredWidth: parent.width - 5
             enabled: isMode(['MANUAL'])
@@ -343,7 +343,7 @@ Item {
         anchors.right: parent.right
     }
     Label {
-        text: i18n('Redshift version') + ': '
+        text: i18n("Redshift version:")
         font.bold: true
         anchors.right: versionStringLabel.left
     }

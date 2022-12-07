@@ -187,22 +187,22 @@ Item {
         var toolTipSubText = ''
         toolTipSubText += '<font size="4">'
         if (active) {
-            toolTipSubText += i18n('Turned on') + ', ' + currentTemperature + 'K'
+            toolTipSubText += i18n("Turned on") + ", " + currentTemperature + "K"
         } else {
             if (manualEnabled) {
-                toolTipSubText += i18n('Manual temperature') + ' ' + manualTemperature + 'K | ' + i18n('Brightness') + ' ' + (manualBrightness*0.01).toFixed(2)
+                toolTipSubText += i18n("Manual temperature") + " " + manualTemperature + "K | " + i18n("Brightness") + " " + (manualBrightness*0.01).toFixed(2)
             } else {
-                toolTipSubText += i18n('Turned off')
+                toolTipSubText += i18n("Turned off")
             }
         }
-        toolTipSubText += '</font>'
-        toolTipSubText += '<br />'
-        toolTipSubText += '<i>' + i18n('Use left / middle click and wheel to manage screen temperature and brightness') + '</i>'
-        toolTipSubText += '<br />'
+        toolTipSubText += "</font>"
+        toolTipSubText += "<br />"
+        toolTipSubText += "<i>" + i18n("Use left / middle click and wheel to manage screen temperature and brightness") + "</i>"
+        toolTipSubText += "<br />"
         if (manualEnabledBrightness) {
-            toolTipSubText += i18n('Mouse wheel controls software brightness')
+            toolTipSubText += i18n("Mouse wheel controls software brightness")
         } else {
-            toolTipSubText += i18n('Mouse wheel controls screen temperature')
+            toolTipSubText += i18n("Mouse wheel controls screen temperature")
         }
 
         Plasmoid.toolTipSubText = toolTipSubText
@@ -226,7 +226,7 @@ Item {
     onManualBrightnessChanged: updateTooltip()
     onCurrentTemperatureChanged: updateTooltip()
 
-    Plasmoid.toolTipMainText: i18n('Redshift Control')
+    Plasmoid.toolTipMainText: i18n("Redshift Control")
     Plasmoid.toolTipSubText: ''
     Plasmoid.toolTipTextFormat: Text.RichText
     Plasmoid.icon: 'redshift'
