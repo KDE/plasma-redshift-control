@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-redshift-control\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-26 00:21+0000\n"
+"POT-Creation-Date: 2022-12-09 00:48+0000\n"
 "PO-Revision-Date: 2020-03-30 01:20+0200\n"
 "Last-Translator: Shinjo Park <kde@peremen.name>\n"
 "Language-Team: Korean <kde-kr@kde.org>\n"
@@ -102,7 +102,9 @@ msgid "Insert custom mode options"
 msgstr "사용자 정의 모드 옵션 삽입"
 
 #: package/contents/ui/config/ConfigAdvanced.qml:346
-msgid "Redshift version"
+#, fuzzy
+#| msgid "Redshift version"
+msgid "Redshift version:"
 msgstr "Redshift 버전"
 
 #: package/contents/ui/config/ConfigGeneral.qml:21

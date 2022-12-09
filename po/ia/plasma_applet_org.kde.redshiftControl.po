@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma-redshift-control\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-26 00:21+0000\n"
+"POT-Creation-Date: 2022-12-09 00:48+0000\n"
 "PO-Revision-Date: 2020-02-10 14:01+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
 "Language-Team: Interlingua <kde-i18n-it@kde.org>\n"
@@ -101,8 +101,10 @@ msgid "Insert custom mode options"
 msgstr ""
 
 #: package/contents/ui/config/ConfigAdvanced.qml:346
-msgid "Redshift version"
-msgstr ""
+#, fuzzy
+#| msgid "Redshift Control"
+msgid "Redshift version:"
+msgstr "Controlo Redshift (Torno al rubie)"
 
 #: package/contents/ui/config/ConfigGeneral.qml:21
 msgid "Plasmoid version"

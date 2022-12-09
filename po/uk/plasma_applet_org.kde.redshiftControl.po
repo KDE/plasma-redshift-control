@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.redshiftControl\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-26 00:21+0000\n"
+"POT-Creation-Date: 2022-12-09 00:48+0000\n"
 "PO-Revision-Date: 2017-10-09 08:35+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
@@ -105,7 +105,9 @@ msgid "Insert custom mode options"
 msgstr "Вставити параметри нетипового режиму"
 
 #: package/contents/ui/config/ConfigAdvanced.qml:346
-msgid "Redshift version"
+#, fuzzy
+#| msgid "Redshift version"
+msgid "Redshift version:"
 msgstr "Версія Redshift"
 
 #: package/contents/ui/config/ConfigGeneral.qml:21
