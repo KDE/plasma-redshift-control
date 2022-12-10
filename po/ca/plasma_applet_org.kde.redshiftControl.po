@@ -1,16 +1,16 @@
 # Translation of plasma_applet_org.kde.redshiftControl.po to Catalan
-# Copyright (C) 2017-2021 This_file_is_part_of_KDE
+# Copyright (C) 2017-2022 This_file_is_part_of_KDE
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2017, 2020.
-# Josep M. Ferrer <txemaq@gmail.com>, 2021.
+# Josep M. Ferrer <txemaq@gmail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-redshift-control\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-09 00:48+0000\n"
-"PO-Revision-Date: 2021-09-06 18:47+0200\n"
+"PO-Revision-Date: 2022-12-09 08:52+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -105,10 +105,8 @@ msgid "Insert custom mode options"
 msgstr "Opcions per al mode d'inserció personalitzat"
 
 #: package/contents/ui/config/ConfigAdvanced.qml:346
-#, fuzzy
-#| msgid "Redshift version"
 msgid "Redshift version:"
-msgstr "Versió del Redshift"
+msgstr "Versió del Redshift:"
 
 #: package/contents/ui/config/ConfigGeneral.qml:21
 msgid "Plasmoid version"

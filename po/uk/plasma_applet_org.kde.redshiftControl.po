@@ -3,13 +3,13 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
-# Yuri Chornoivan <yurchor@ukr.net>, 2017.
+# Yuri Chornoivan <yurchor@ukr.net>, 2017, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org.kde.redshiftControl\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-09 00:48+0000\n"
-"PO-Revision-Date: 2017-10-09 08:35+0200\n"
+"PO-Revision-Date: 2022-12-09 08:26+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 20.12.0\n"
 
 #: package/contents/config/config.qml:11
 msgid "General"
@@ -105,10 +105,8 @@ msgid "Insert custom mode options"
 msgstr "Вставити параметри нетипового режиму"
 
 #: package/contents/ui/config/ConfigAdvanced.qml:346
-#, fuzzy
-#| msgid "Redshift version"
 msgid "Redshift version:"
-msgstr "Версія Redshift"
+msgstr "Версія Redshift:"
 
 #: package/contents/ui/config/ConfigGeneral.qml:21
 msgid "Plasmoid version"

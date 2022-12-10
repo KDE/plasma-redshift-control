@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Automatically generated, 2017.
-# Eloy Cuadra <ecuadra@eloihr.net>, 2017.
+# Eloy Cuadra <ecuadra@eloihr.net>, 2017, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_org\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-09 00:48+0000\n"
-"PO-Revision-Date: 2017-12-14 22:39+0100\n"
+"PO-Revision-Date: 2022-12-09 23:54+0100\n"
 "Last-Translator: Eloy Cuadra <ecuadra@eloihr.net>\n"
 "Language-Team: Spanish <kde-l10n-es@kde.org>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Lokalize 22.12.0\n"
 
 #: package/contents/config/config.qml:11
 msgid "General"
@@ -104,10 +104,8 @@ msgid "Insert custom mode options"
 msgstr "Insertar opciones de modo personalizado"
 
 #: package/contents/ui/config/ConfigAdvanced.qml:346
-#, fuzzy
-#| msgid "Redshift version"
 msgid "Redshift version:"
-msgstr "Versión de Redshift"
+msgstr "Versión de Redshift:"
 
 #: package/contents/ui/config/ConfigGeneral.qml:21
 msgid "Plasmoid version"
