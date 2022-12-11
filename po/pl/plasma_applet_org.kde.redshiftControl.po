@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-09 00:48+0000\n"
-"PO-Revision-Date: 2022-01-08 09:19+0100\n"
+"PO-Revision-Date: 2022-12-10 11:08+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 22.03.70\n"
+"X-Generator: Lokalize 22.08.3\n"
 
 #: package/contents/config/config.qml:11
 msgid "General"
@@ -103,10 +103,8 @@ msgid "Insert custom mode options"
 msgstr "Wstaw własne opcje trybu"
 
 #: package/contents/ui/config/ConfigAdvanced.qml:346
-#, fuzzy
-#| msgid "Redshift version"
 msgid "Redshift version:"
-msgstr "Wersja Redshift"
+msgstr "Wersja Redshift:"
 
 #: package/contents/ui/config/ConfigGeneral.qml:21
 msgid "Plasmoid version"
