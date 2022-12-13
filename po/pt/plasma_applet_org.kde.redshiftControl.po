@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: plasma_applet_org\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-09 00:48+0000\n"
-"PO-Revision-Date: 2017-10-09 10:53+0100\n"
+"PO-Revision-Date: 2022-12-12 18:00+0000\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -99,10 +99,8 @@ msgid "Insert custom mode options"
 msgstr "Inserir opções de modo personalizadas"
 
 #: package/contents/ui/config/ConfigAdvanced.qml:346
-#, fuzzy
-#| msgid "Redshift version"
 msgid "Redshift version:"
-msgstr "Versão do Redshift"
+msgstr "Versão do Redshift:"
 
 #: package/contents/ui/config/ConfigGeneral.qml:21
 msgid "Plasmoid version"
