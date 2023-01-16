@@ -1,12 +1,12 @@
 # Translation of plasma_applet_org.kde.redshiftControl to Norwegian Nynorsk
 #
-# Karl Ove Hufthammer <karl@huftis.org>, 2018, 2020.
+# Karl Ove Hufthammer <karl@huftis.org>, 2018, 2020, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-09 00:48+0000\n"
-"PO-Revision-Date: 2020-03-15 20:09+0100\n"
+"PO-Revision-Date: 2023-01-15 12:24+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
 "Language: nn\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 19.12.3\n"
+"X-Generator: Lokalize 22.12.1\n"
 "X-Environment: kde\n"
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
@@ -104,7 +104,7 @@ msgstr "Set inn tilpassa modusval"
 
 #: package/contents/ui/config/ConfigAdvanced.qml:346
 msgid "Redshift version:"
-msgstr ""
+msgstr "Redshift-versjon:"
 
 #: package/contents/ui/config/ConfigGeneral.qml:21
 msgid "Plasmoid version"
