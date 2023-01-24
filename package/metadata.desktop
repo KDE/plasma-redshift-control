@@ -2,6 +2,7 @@
 Encoding=UTF-8
 Name=Redshift Control
 Name[az]=Redshift Nəzarəti
+Name[be]=Кіраванне Redshift
 Name[ca]=Control del Redshift
 Name[ca@valencia]=Control de Redshift
 Name[cs]=Ovládání Redshift
@@ -38,6 +39,7 @@ Name[zh_CN]=Redshift 控制
 Name[zh_TW]=Redshift 控制
 Comment=Plasmoid for controling redshift.
 Comment[az]=Redshift idarə etmək üçün plasmoid
+Comment[be]=Плазмоід для кіравання redshift.
 Comment[ca]=Plasmoide per a controlar el Redshift.
 Comment[ca@valencia]=Plasmoide per a controlar Redshift.
 Comment[cs]=Plasmoid pro ovládání redshift.
