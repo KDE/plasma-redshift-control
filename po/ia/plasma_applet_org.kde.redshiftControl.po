@@ -1,21 +1,21 @@
 # Copyright (C) YEAR This file is copyright:
 # This file is distributed under the same license as the plasma-redshift-control package.
 #
-# giovanni <g.sora@tiscali.it>, 2020.
+# giovanni <g.sora@tiscali.it>, 2020, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-redshift-control\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2022-12-09 00:48+0000\n"
-"PO-Revision-Date: 2020-02-10 14:01+0100\n"
+"PO-Revision-Date: 2023-02-08 12:26+0100\n"
 "Last-Translator: giovanni <g.sora@tiscali.it>\n"
-"Language-Team: Interlingua <kde-i18n-it@kde.org>\n"
+"Language-Team: Interlingua <kde-i18n-doc@kde.org>\n"
 "Language: ia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 18.12.3\n"
+"X-Generator: Lokalize 21.12.3\n"
 
 #: package/contents/config/config.qml:11
 msgid "General"
@@ -101,10 +101,8 @@ msgid "Insert custom mode options"
 msgstr ""
 
 #: package/contents/ui/config/ConfigAdvanced.qml:346
-#, fuzzy
-#| msgid "Redshift Control"
 msgid "Redshift version:"
-msgstr "Controlo Redshift (Torno al rubie)"
+msgstr "Version de  Redshift (Torno al rubie):"
 
 #: package/contents/ui/config/ConfigGeneral.qml:21
 msgid "Plasmoid version"
